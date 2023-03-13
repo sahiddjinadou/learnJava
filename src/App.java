@@ -1,5 +1,4 @@
 import bj.highfive.Person;
-import bj.highfive.Programmeur;
 import bj.highfive.Counter;
 import bj.highfive.Adress;
 import bj.highfive.Animal;

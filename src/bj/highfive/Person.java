@@ -3,6 +3,7 @@ package bj.highfive;
 public class Person {
     private String nom;
     public static int x = 10; 
+    protected int age;
     final private String surnom = "Codeur";
 
     private Adress adress;

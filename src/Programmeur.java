@@ -1,8 +1,12 @@
-package bj.highfive;
 
-public class Programmeur extends Person  {
+
+import bj.highfive.Adress;
+import bj.highfive.Person;
+
+ class Programmeur extends Person  {
     private String nom;
     private String surnom;
+    
     {
         System.out.println(" c'est le bloc  tout cour");
     }
@@ -11,7 +15,7 @@ public class Programmeur extends Person  {
 
     public Programmeur(String nom, Adress adress) {
         super( nom, adress);
-        super.present();    
+        super.present();            
         System.out.println("ici c'est dans le constructeur");
     }
 
