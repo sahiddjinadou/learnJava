@@ -7,6 +7,6 @@ public class Counter {
     }
     public Counter(){
         count ++;
-        // System.out.println(count);
+        System.out.println(count);
     }
 }
